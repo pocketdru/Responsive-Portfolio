@@ -1,0 +1,25 @@
+form {
+    margin-top: 14px;
+}
+
+form label {
+    margin-top: 16px;
+    display: block;
+}
+
+label {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+}
+
+label[for="name"], label[for="email"], label[for="textarea"] {
+    margin-bottom: 7px;
+}
+
+.about-me input {
+    width: 100%;
+    height: 30px;
+    padding-left: 12px;
+}
