@@ -1,21 +1,19 @@
-@media screen and (max-width 768px) {
-    .header {
-        width: 550px;
-    };
-
-    .container {
-        width: 550px;
+@media screen and (max-width: 800px) {
+    .projects li {
+        width: 100%;
     }
 
-    .footer {
-        width: 500px;
+    .float, .main-info {
+        width: 100%;
     }
 }
 
-@media screen and (max-width 640px) {
+/* @media screen and (max-width 640px) {
     .header {
         width: 400px;
-    };
+    }
+
+    ;
 
     .container {
         width: 400px;
@@ -24,7 +22,7 @@
     .footer {
         width: 400px;
     }
-}
+} */
 
 html {
     height: 100%;
@@ -39,7 +37,7 @@ body {
 .header {
     height: 70px;
     margin: 0 auto;
-    border-bottom: 2px solid #cccccc; 
+    border-bottom: 2px solid #cccccc;
 }
 
 .header-content {
@@ -77,7 +75,8 @@ body {
     padding: 0px 10px;
 }
 
-.navigation > a:hover {
+.navigation>a:hover,
+.contact-info>a:hover {
     text-decoration: underline;
 }
 
@@ -89,8 +88,8 @@ body {
     background-image: url("../images/concrete_seamless.png");
     min-height: 100%;
     padding: 38px 0px 0px 0px;
-    box-sizing: border-box; 
-    margin-bottom: -50px; 
+    box-sizing: border-box;
+    margin-bottom: -50px;
 }
 
 .about-me {
@@ -98,59 +97,87 @@ body {
     width: 898px;
     margin: 0 auto;
     padding: 38px 30px 38px 38px;
-    border: 1px solid #dddddd;  
+    border: 1px solid #dddddd;
 }
 
 .about-me h2 {
     font-family: 'Georgia', Times, "Times New Roman", serif;
     color: #4aaaa5;
-    border-bottom: 4px solid  rgb(221, 221, 221);
+    border-bottom: 4px solid rgb(221, 221, 221);
     padding-bottom: 30px;
     margin: 0;
 }
 
-.about-me h3 {
-    font-family: 'Georgia', Times, "Times New Roman", serif;
-    color: #4aaaa5;
-    font-weight: 900;
-    text-shadow: 1px 1px 4px #777777;
-}
 
 #float {
     margin-top: 30px;
     margin-right: 30px;
     float: left;
+    width: 33%;
 }
+
+.main-info {
+    width: 100%;
+    }
 
 .text {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
-    list-style-type:lower-greek;
+    color: #5c5b5b;
+    list-style-type: lower-greek;
     line-height: 20px;
     letter-spacing: 0.25px;
-}
-
-.text-p {
     margin-top: 30px;
 }
 
-.text span {
-    color: #4aaaa5;
-    font-style: italic;
+.textLet {
+    color: black;
     font-weight: 500;
-    text-shadow: 1px 1px 2px #777777;
 }
 
-.text span:hover {
-    text-decoration: underline;
-}
-
-.about-me h3 + p, .about-me ol + h3 {
+.contact-info {
+    margin: 0 auto;
     text-align: center;
 }
 
-.about-me ol + h3 {
-    margin-top: 25px;
+.contact-info a {
+    text-decoration: none;
+    padding: 15px 10px;
+    font-weight: 700;
+    color: #5c5b5b;
+    font-size: 1.3em;
+}
+
+.projects h3 {
+    text-align: center;
+    color: #5c5b5b;
+}
+
+.projects ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.projects li {
+    border: 1px solid rgb(221, 221, 221);
+    width: 150px;
+    padding: 0px 10px 10px 10px;
+    margin: 15px;
+    width: 30%;
+}
+
+.projects h4 {
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    color: #4aaaa5;
+}
+
+.projects a {
+    color: #5c5b5b;
+    text-decoration: none;
+
+}
+
+.projects li:hover {
+    border: none;
 }
 
 .push {
