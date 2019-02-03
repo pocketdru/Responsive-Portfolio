@@ -64,9 +64,9 @@ body {
 .navigation {
     display: flex;
     height: 20px;
-    width: 200px;
+    width: 420px;
     justify-content: space-between;
-    margin: 25px 0px 25px 500px;
+    margin: 25px 0px 25px 280px;
 }
 
 .navigation a {
@@ -183,7 +183,8 @@ body {
 
 .bamazon-info p,
 li,
-.friend-info p {
+.friend-info p,
+.gif-info, .burger-info p {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #5c5b5b;
     line-height: 20px;
